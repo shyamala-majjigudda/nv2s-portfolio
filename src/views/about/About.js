@@ -3,9 +3,6 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./about.css";
-import Profile from "../../assets/img/profile/profile.svg";
-import Image from "react-bootstrap/Image";
-import Button from "react-bootstrap/Button";
 
 const About = () => {
   return (
@@ -32,10 +29,10 @@ const About = () => {
               <h2>VISION & MISSION</h2>
               <ul>
                 <li>To become gobally prefered interconnection solution provider by
-              adding value in each of the solution.</li>
+                  adding value in each of the solution.</li>
                 <li> We provide and create stake holder delight.</li>
                 <li>Pioneer in cable harness assemblies for exacting application.</li>
-              </ul>             
+              </ul>
             </Col>
           </Row>
         </Container>
