@@ -19,6 +19,7 @@ import product3 from "../../assets/img/products/product3.jpeg";
 import product4 from "../../assets/img/products/product4.jpeg";
 import product5 from "../../assets/img/products/product5.jpeg";
 import product6 from "../../assets/img/products/product6.jpg";
+import product7 from "../../assets/img/products/product7.jpg";
 
 // Custom timline theme
 const customTheme = createTheme(themes.default, {
@@ -44,13 +45,13 @@ const Products = () => {
         <div className="row">
           <div class="col-md-3 thumbnail">
             <Card>
-              <Card.Img variant="top" src={product1} />
+              <Card.Img src={product1} />
             </Card>
           </div>
 
           <div class="col-md-3 thumbnail">
             <Card>
-              <Card.Img variant="top" src={product2} />
+              <Card.Img variant="center" src={product2} />
             </Card>
           </div>
 
@@ -74,6 +75,11 @@ const Products = () => {
           <div class="col-md-3 thumbnail">
             <Card>
               <Card.Img variant="top" src={product6} />
+            </Card>
+          </div>
+          <div class="col-md-3 thumbnail">
+            <Card>
+              <Card.Img variant="top" src={product7} />
             </Card>
           </div>
         </div>
