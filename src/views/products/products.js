@@ -1,12 +1,4 @@
 import React from "react";
-import {
-  Timeline,
-  Events,
-  UrlButton,
-  ImageEvent,
-  createTheme,
-  themes,
-} from "@merc/react-timeline";
 import Card from "react-bootstrap/Card";
 
 //Css file
@@ -20,22 +12,6 @@ import product4 from "../../assets/img/products/product4.jpeg";
 import product5 from "../../assets/img/products/product5.jpeg";
 import product6 from "../../assets/img/products/product6.jpg";
 import product7 from "../../assets/img/products/product7.jpg";
-
-// Custom timline theme
-const customTheme = createTheme(themes.default, {
-  card: {
-    backgroundColor: "#efefef",
-  },
-  date: {
-    backgroundColor: "#ec4b4f",
-  },
-  marker: {
-    borderColor: "#070d59",
-  },
-  timelineTrack: {
-    backgroundColor: "#ec4b4f",
-  },
-});
 
 const Products = () => {
   return (

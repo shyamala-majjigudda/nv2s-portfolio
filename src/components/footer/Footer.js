@@ -1,7 +1,6 @@
 import React from "react";
 import "./footer.css";
-import Logo from "../../assets/icons/nv2s-logo.png";
-
+/* eslint-disable */
 const Footer = () => {
   return (
     <div>
